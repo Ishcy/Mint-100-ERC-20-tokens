@@ -42,7 +42,7 @@ pragma solidity ^0.8.20;
 import "@openzeppelin/contracts/token/ERC20/ERC20.sol";
 
 contract TestToken is ERC20 {
-    constructor()ERC20("IzzyToken","IZZY"){}
+    constructor()ERC20("MewingToken","MEWING"){}
 
     function mint1000tokens() public {
         _mint(msg.sender,1000*10**18);
@@ -98,7 +98,7 @@ npm run transfer
 - push this project to your github and paste your repository link in testnet dashboard
 
 by :
-github :[Ishcy](https://github.com/Ishcy)
+github : [Ishcy](https://github.com/Ishcy)
 twitter : @Ishly13
 telegram : @ish_ly
 //0xE227e1Cf6340751f428Fa3E9DeB23cA9f62bC591
